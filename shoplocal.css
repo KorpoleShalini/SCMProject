@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #ecd0cf;
+}
+
+header {
+    width: 100%;
+    height: 822px;
+    margin: auto;
+    display: flex;
+}
+
+.upper {
+    display: inline-block;
+    justify-content: space-between;
+    /*margin-top: 50px;
+    padding: 0 50px;*/
+}
+
+.nav {
+    margin-top: 45px;
+    margin-left: 160px;
+}
+
+.line {
+    margin-top: -10px;
+    margin-right: -10px;
+}
+.upper_search{
+    display: inline-block;
+    margin-left: 90%;
+   
+    /*  */
+    /* */
+}
+.cart{
+    float: right; 
+    margin-right: 0px;
+     /* margin-bottom: 60px ; */
+}
+.menu ul li {
+    display: inline-block;
+    /*font-family: "BebasNeue";*/
+    font-size: 20px;
+    padding: 10px;
+    /* margin-right: -80px; */
+
+
+    /* margin-right: 15px; */
+}
+
+.menu ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: -47px;
+    margin-left: 160px;
+    padding-left: 70px;
+    font-family: "tenor sans";
+    color: #4a7163;
+
+}
+.cart{
+    /* margin-left: -100px; */
+    /* margin-right: 50px; */
+}
+.search{
+    margin-left: 200px;
+    float: right; 
+    margin-right: 0px;
+}
+.menu ul li:hover{
+    left: 10px;
+}
+
+.ladyimg {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.info {
+    width: 1340px;
+    height: 710px;
+    background: linear-gradient(to bottom, #ecd0cf 57%, #4b7164 20%);
+}
+
+.quotes1 h1 {
+    /*font-size: 60px;
+     font-family: "tenor sans";
+     letter-spacing: 2px;
+     color:#4b7164;*/
+    font-size: 70px;
+    line-height: 93px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+}
+
+.quotes1 p {
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    position: relative;
+    bottom: 17px;
+}
+
+.quotes2 p {
+    /*width: 1584px;*/
+    height: 173px;
+    font-size: 17px;
+    color: #ebd0cf;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: justify;
+    margin-top: 215px;
+}
+
+.quotes2 {
+    position: relative;
+    left: -190px;
+}
+
+.quotes1 {
+    position: relative;
+    left: -170px;
+    top: 150px;
+}
+
+#btn {
+    border: none;
+    padding: 15 px;
+    width: 240px;
+    height: 49px;
+    background-color: #ebd0cf;
+    font-family: "Tenor Sans";
+    font-size: 25px;
+    color: #4a7163;
+    position: relative;
+    top: -60px;
+    
+}
+#btn:hover{
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.products {
+    /* width: 1459px;*/
+    /*height: 1017px;*/
+
+    width: 90%;
+    min-height: 600px;
+    /* display: flex; */
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 70px;
+    margin-right: -80px;
+}
+
+.products h5 {
+    font-size: 28px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: center;
+    margin-top: 80px;
+}
+
+.products h2 {
+    font-size: 57px;
+    color: #4a7163;
+    font-weight: 400;
+    font-family: "Tenor Sans";
+    text-align: center;
+    height: auto;
+}
+/*.circles{
+    width: 19px;
+height: 19px;
+border-radius: 10px;
+background-color: #4a7163;
+display: flex;
+}*/
+.circles{
+    display: flex;
+    gap: 60px;
+    margin-top: 80px;
+    margin-left: 470px;
+    margin-bottom: 150px;
+    
+}
+
+.circles div{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.circles div:nth-child(1){
+    background-color: #4a7163;
+}
+.circles div:not(:nth-child(1)){
+    background-color: #4a7163;
+}
+
+.cards {
+    display: flex;
+    margin: 20px;
+    /* justify-content: center; */
+    width: 1200px;
+}
+.singleCard {
+    /* width: ; */
+    margin: 40px;
+}
+.singleCard img{
+    height: 406px;
+
+}
+
+/*.cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} 
+.singleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.singleCard {
+    float: left;
+    width: 33.33%;
+    /*padding: 2px;
+    align-items: center;
+    
+     }
+  .cards::after {
+    content: "";
+    clear: both;
+    display: table;
+    position: absolute;
+    width: 324px;
+  }*/
+  
+.singleCard h6{
+    font-family: "tenor sans";
+    color: #4a7163;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.singleCard p{
+    color: #4a7163;
+    font-family: "tenor sans";
+    text-align: center;
+    /*line-height: 25px;*/
+}
+
+
+.content {
+    width: 100%;
+    min-height:450px;
+    /*display: flex;*/
+    background: linear-gradient(to right,#4a7163 70%, #ebd0cf 30%);
+    /*background-color: #ebd0cf;*/
+
+}
+
+.ladyimg2 {
+    /* width: 40%; */
+    text-align: right;
+    margin-right: 250px;
+    position: relative;
+    top: 110px;
+   
+
+} 
+
+.quotes3 {
+    position: relative;
+    margin: 70px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+top: -350px;
+
+}
+.q1{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 30px;
+}
+.q2{
+    font-size: 90px;
+    margin-top: 10px;
+
+line-height: 93px;
+color: #ebd0cf;
+font-weight: 45px;
+font-family: "Tenor Sans";
+}
+.q3{
+    font-size: 90px;
+    margin-top: 10px;
+
+line-height: 93px;
+color: #ebd0cf;
+font-weight: 45px;
+font-family: "Tenor Sans";
+}
+ #btn1{
+    /*font-size: 28px;
+    color: #4a7163;
+    background-color:#ebd0cf ;
+    width: 250px;
+    height: 50px;
+    font-weight: 400;
+    font-family: "Tenor Sans";*/
+    border: none;
+    padding: 15 px;
+    width: 230px;
+    height: 39px;
+    background-color: #ebd0cf;
+    font-family: "Tenor Sans";
+    font-size: 25px;
+    color: #4a7163;
+    position: relative;
+    top: 40px;
+    
+} 
+#btn1:hover{
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.q4{
+     font-size: 17px;
+    margin-top: 10px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+}
+.adv1{
+    width: 100%;
+    min-height: 400px;
+    /* margin-top: 3px; */
+    margin-top: -70px;
+    display: flex;
+}
+.quotes4{
+    text-align:left;
+    top: -590px;
+    width: 50%;
+    /* justify-content: right; */
+    margin: 160px 100px ;
+}
+.qq1{
+    font-size: 90px;
+line-height: 93px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+right: 100px;
+margin-top: 10px;
+}
+.qq2{
+    font-size: 90px;
+line-height: 93px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+margin-top: 10px;
+}
+
+.qq3{
+    font-size: 17px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+margin-top: 10px;
+}
+
+.ladyimg3 img{
+    width: 670px;
+    height: 650px;
+}
+#btn2{
+    border: 3px solid #4a7163;
+    padding: 15 px;
+    width: 230px;
+    height: 39px;
+    background-color: #ebd0cf;
+    font-family: "Tenor Sans";
+    font-size: 25px;
+    color: #4a7163;
+    position: relative;
+    top: 40px;
+     
+}
+#btn2:hover{
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.adv2{
+    width: 100%;
+    min-height: 400px;
+    /* margin-top: 3px; */
+    margin-top: 0px;
+    display: flex;
+}
+.quotes5{
+    /* text-align:; */
+    top: -590px;
+    width: 50%;
+    /* justify-content: right; */
+    margin: 160px 100px ;
+}
+.ladyimg4 img{
+    width: 670px;
+    height: 651px;
+    /* float: right; */
+}
+.q51{
+    font-size: 90px;
+line-height: 93px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+right: 100px;
+margin-top: 10px;
+}
+.q52{
+    font-size: 90px;
+line-height: 93px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+margin-top: 10px;
+}
+
+.q53{
+    font-size: 17px;
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+margin-top: 28px;
+}
+#btn3{
+    border: 3px solid #4a7163;
+    padding: 15 px;
+    width: 230px;
+    height: 39px;
+    background-color: #ebd0cf;
+    font-family: "Tenor Sans";
+    font-size: 25px;
+    color: #4a7163;
+    position: relative;
+    top: 40px;
+     
+}
+#btn3:hover{
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.testimonials{
+    width: 100%;
+    min-height:1100px ;
+    background-color: #4a7163;
+    margin-top: -95px;
+}
+#head{
+    font-size: 90px;
+line-height: 93px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+text-align: center;
+padding-top: 90px;
+
+}
+#head2{
+    font-size: 28px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+text-align: center;
+}
+.people{
+    /*display: flex;*/
+    float: left;
+    width: 100%;
+    gap: 80px;
+    padding: 20px 0 0 190px;
+   
+   
+}
+.tes{
+    margin: 10px;
+    float: left;
+    width: 45%;
+    padding: 10px 20px 30px 10px;
+}
+.tes img{
+    margin-left: 90px;
+}
+#in1{
+    font-family: "tenor sans";
+    color: #ebd0cf;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+#para{
+    font-size: 17px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+text-align: center;
+padding: 10px 30px 0 0;
+}
+.service{
+    width: 100%;
+    min-height:1360px ;
+    
+}
+.local{
+    display: flex;
+/*     float: left; */
+    width: 100%;
+    
+/*     padding: 20px 0 0 190px; */
+   
+   
+}
+.loc{
+    margin: 10px;
+/*   justify-content:centre; */
+/*     float: left; */
+    width: 45%;
+/*     padding: 10px 20px 30px 10px; */
+/*     margin-left: -100px; */
+}
+.left{
+    float: left;
+  width:40%;
+    
+  margin-left:100px;
+
+}
+.left img{
+    margin-top: 60px;
+}
+.loc1{
+    margin-top: 30px;
+}
+/*.loc img{
+    margin-left: 90px;
+}*/
+.right{
+     
+  width:40%;
+    float: right;
+  margin-left:50px;
+  margin-top: 13px;
+
+}
+/* .right .para{
+    margin-bottom: 10px;
+} */
+.loc2{
+    margin-top: 38px;
+}
+.in2{
+/*     margin-top: -20px; */
+/*     margin-left: 150px; */
+    font-size: 28px;
+/*   text-align:center; */
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+width: 550px;
+/* height: 10px; */
+}
+#para1{
+    font-size: 17px;
+    color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+text-align: center;
+height: 100px;
+width: 450px;
+/* padding: 10px 30px 0 0; */
+}
+#head3{
+    font-size: 90px;
+
+color: #4a7163;
+font-weight: 400;
+font-family: "Tenor Sans";
+text-align: center;
+padding-top: 90px;
+}
+.left #para1{
+    /*   width:100%; */
+      width:450px;
+       
+    }
+    #btn4{
+        padding: 8px;
+        width: 230px;
+        height: 45px;
+        background-color: #4a7163;
+        font-family: "Tenor Sans";
+        position: relative;
+        top: 70px;
+        font-size: 25px;
+        color: #ebd0cf;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 40%;
+        border: none;
+    }
+    #btn4:hover{
+        background-color: lightsalmon;
+        color: black;
+        border: none;
+        /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5); */
+    }
+ #footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #4a7163;
+ }   
+ .foot{
+    display: flex;
+   
+ }
+ .footlogo{
+    width: 260px;
+    margin-left: 70px;
+    margin-top: 50px;
+ }
+ .icons{
+    margin-top: 10px;
+ }
+ .icons img{
+    margin-right: 16px;
+ }
+ .lg{
+    font-size: 75px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+ }
+
+ #ic1{
+    /*background-color: #ebd0cf;*/
+ }
+ #ic2{
+    border-color: #ebd0cf;
+    /*background-color: #ebd0cf;*/
+ }
+ #ic3{
+    /*background-color: #ebd0cf;*/
+ }
+ .serv {
+    color: #ebd0cf;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 70px 160px;
+font-family: "Tenor Sans";
+list-style-type: none;
+ }
+ .serv ul li a{
+    text-decoration: none;
+    color: #ecd0cf;
+    
+ }
+ .team{
+    color: #ecd0cf;
+    margin-top: 70px;
+    margin-right: 80px;
+    font-size: 21px;
+    font-family: "Tenor Sans";
+list-style-type: none;
+font-weight: 400px;
+    
+ } 
+ .team ul li a{
+    text-decoration: none;
+    color: #ecd0cf;}
+ .legal{
+    color: #ecd0cf;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 21px;
+    font-family: "Tenor Sans";
+list-style-type: none;
+font-weight: 400px;
+ }
+ .legal ul li a{
+    text-decoration: none;
+    color: #ecd0cf;
+ }
+ .copyright{
+    width: 673px;
+height: 35px;
+font-size: 17px;
+line-height: 35px;
+color: #ebd0cf;
+font-weight: 400;
+font-family: "Tenor Sans";
+margin-left: 70px;
+margin-top: 30px;
+ }
+
+
